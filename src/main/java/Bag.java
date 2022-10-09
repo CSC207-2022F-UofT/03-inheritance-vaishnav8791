@@ -93,7 +93,6 @@ public abstract class Bag {
             return null;
         }
         String last = this.contents[this.numberOfContents];
-        //this.contents[this.numberOfContents] = null;
         numberOfContents -= 1;
         return last;
     }
